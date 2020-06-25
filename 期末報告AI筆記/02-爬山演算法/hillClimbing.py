@@ -16,3 +16,6 @@ def hillClimbing(s, maxGens, maxFails):   # 爬山演算法的主體函數
             break
     print("solution: ", s.str())          #  印出最後找到的那個解
     return s                              #    然後傳回。
+
+
+#老師的程式沒改，全理解
