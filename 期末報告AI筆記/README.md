@@ -2,7 +2,7 @@
 ## 主題
 |[01-人工智慧簡介](https://github.com/sr47ygt/ai108b/tree/master/%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8AAI%E7%AD%86%E8%A8%98/01-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%B0%A1%E4%BB%8B)|
 |-|
-|[02-爬山演算法](https://github.com/sr47ygt/ai108b/blob/master/%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8AAI%E7%AD%86%E8%A8%98/02-%E7%88%AC%E5%B1%B1%E6%BC%94%E7%AE%97%E6%B3%95)|
+|[02-爬山演算法]()|
 |[03-神經網路]()|
 |[04-圖形搜尋]()|
 |[05-電腦下棋]()|
