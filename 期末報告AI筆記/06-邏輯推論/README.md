@@ -1,3 +1,4 @@
+***
 
 # 06-邏輯推論
 
@@ -19,54 +20,9 @@
 
 按照規定，推理規則的應用純粹是語法過程。儘管如此它必須是有效的，或者更精確地說保持有效性。為了使保持有效性的要求有意義，某種形式的語義與推理規則有關和推理規則自身的斷言是必需的。
 
-### 以下面程式來解說:
- ```
- import random as r
 
-role =[]
-n = ['阿貓','阿狗','我','小明']
-f = ['炒販','便當','泡麵','炸雞','拉麵','水餃','三明治','漢堡']
-d = ['多多綠','奶茶','紅茶','烏龍茶','清茶','柳橙汁','豆漿']
-t = ['中午','晚上','宵夜','早餐']
-da = ['今天','明天','後天']
-
-
-
-def S():
-    return  N() + DAY() + TIME() + '想吃' + Food() + '配' + DRINK()
-
-def N():
-    return r.choice(n)
-
-def Food():
-    return r.choice(f)
-
-def DRINK():
-    return r.choice(d)
-
-def TIME():
-    return r.choice(t)
-
-def DAY():
-    return r.choice(da)
-
-print(S())
-```
-  
-  句子結構為:人+日期+時間+食物+飲料
-  以這個結構下去做推論，得出下面結果
-  ```
-PS D:\python\ai\python\07-nlp\cword2vec> python HW5.py
-小明後天中午想吃拉麵配奶茶
-PS D:\python\ai\python\07-nlp\cword2vec> python HW5.py
-我明天晚上想吃三明治配豆漿
-PS D:\python\ai\python\07-nlp\cword2vec> python HW5.py
-小明明天晚上想吃漢堡配清茶
-PS D:\python\ai\python\07-nlp\cword2vec> python HW5.py
-阿狗後天早餐想吃三明治配紅茶
-PS D:\python\ai\python\07-nlp\cword2vec> python HW5.py
-阿貓明天早餐想吃漢堡配紅茶
-```
 
 ## 參考資料
 [邏輯推論](https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/06-%E9%82%8F%E8%BC%AF%E6%8E%A8%E8%AB%96) / [維基-邏輯推理](https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86) / [維基-演譯推理](https://zh.wikipedia.org/wiki/%E6%BC%94%E7%BB%8E%E6%8E%A8%E7%90%86) / [維基-推理規則](https://zh.wikipedia.org/wiki/%E6%8E%A8%E7%90%86%E8%A7%84%E5%88%99)
+ 
+  ***
