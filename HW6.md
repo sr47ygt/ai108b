@@ -10,6 +10,7 @@ def root2(a,b,c):
 print("root of 8x^6+4x+2=", root2(8, 6, 4))
 print("root of 7x^5+3x+1=", root2(7, 5, 3))
 ```
+使用可以運算複數的函式庫(**cmath**)
 ## 結果
 ```
 PS D:\python> & "C:/Program Files/Python37/python.exe" d:/python/python_class/ai/python/08-scientific/algebra/HW6.py
